@@ -11,6 +11,7 @@
   inputs.src-fwrite-v1_0_0.ref   = "refs/tags/v1.0.0";
   inputs.src-fwrite-v1_0_0.owner = "pdrb";
   inputs.src-fwrite-v1_0_0.repo  = "nim-fwrite";
+  inputs.src-fwrite-v1_0_0.dir   = "";
   inputs.src-fwrite-v1_0_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
