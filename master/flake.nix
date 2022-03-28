@@ -11,7 +11,6 @@
   inputs.src-fwrite-master.ref   = "refs/heads/master";
   inputs.src-fwrite-master.owner = "pdrb";
   inputs.src-fwrite-master.repo  = "nim-fwrite";
-  inputs.src-fwrite-master.dir   = "";
   inputs.src-fwrite-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
